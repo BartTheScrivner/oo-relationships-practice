@@ -1,8 +1,8 @@
 class Trip 
-  attr_accessor :id, :listing, :guest
+  attr_accessor :date, :listing, :guest
   @@all = []
-  def initialize(id, listing, guest)
-    @id = id
+  def initialize(date, listing, guest)
+    @date = date
     @listing = listing
     @guest = guest
     @@all << self
